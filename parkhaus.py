@@ -3,10 +3,22 @@
 
 print ("Linienbus-Simulator")
 
-einsteiger = input ("Wie viele Personen wollen einsteigen?")
+haltestellen = input("Wie viele Haltstellen gibt es? ")
 
-personen = int(einsteiger)
+Haltstellen = int(haltestellen)
+
+einsteiger = input("Wie viele Personen steigen ein ")
+
+Einsteigen = int(einsteiger)
+
+print("Es steigen " ,einsteiger "ein") 
+
 
 for h in range (0,10):
 
     print("Guten Morgen!")
+
+
+
+
+
