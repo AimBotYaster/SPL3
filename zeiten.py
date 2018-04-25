@@ -1,5 +1,5 @@
 # zeiten.py 
-
+import sys
 
 def zeitInSekunden(h,m,s):
     beginnzeit = 0 
@@ -9,9 +9,10 @@ def zeitInSekunden(h,m,s):
     return beginnzeit
 
 
+p = sys.argv
 
-beginnZeit = input("Beginnzeit: ")
-endeZeit = input ("Endezeit: ")
+beginnZeit = p[1]
+endeZeit = p[2]
 beginn = beginnZeit.split(":")
 
 end = endeZeit.split(":")
